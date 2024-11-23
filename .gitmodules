@@ -1,0 +1,12 @@
+[submodule "service-discovery"]
+	path = service-discovery
+	url = https://github.com/marceloviana1991/service-discovery
+[submodule "gateway"]
+	path = gateway
+	url = https://github.com/marceloviana1991/gateway
+[submodule "ms-pedidos"]
+	path = ms-pedidos
+	url = https://github.com/marceloviana1991/ms-pedidos
+[submodule "ms-pagamentos"]
+	path = ms-pagamentos
+	url = https://github.com/marceloviana1991/ms-pagamentos
