@@ -30,7 +30,9 @@ Esses dois módulos são compostos por configurações e bibliotecas externas qu
 
 Já os microsserviços de pagamentos e pedidos, além de possuírem configurações e bibliotecas externas para atuar como clientes do service discorey e do gateway, possuem implementações lógicas de API Rest.
 
-A implementação lógica do relacionamento entre esses dois serviços se dá por meio de de um atributo do pedido que define o status do pedido como PAGO. 
+A lógica de integração dos microsserviços é dada por meio de uma relação bidirecional, onde, quando um pedido é criado o microsserviço de pedidos faz uma requisição para o microsserviço de pagamentos e cria um pagamento com status pendente. Já quando um pagamento muda o status de pendente para confirmado o microsserviço de pagamentos faz uma requisição para o microsserviço de pedidos alterando o status do pedido.
+
+O objetivo foi inicialmente implementar uma comunicação síncrona entre os microsserviços para posteriormente implementar uma comunicação assíncrona por meio de sistema de mensageria. A ideia é avaliar as vantagens que esse tipo de comunicação pode trazer para um sistema como esse.
 
 
 
