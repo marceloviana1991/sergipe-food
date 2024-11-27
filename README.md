@@ -16,7 +16,7 @@ O projeto consiste em sistema web API Rest de uma especie de lanchonete que, ap�
 
 A proposta do repositório é disponibilizar o código fonte dos projetos apresentando as lógicas programação utilizadas na implementação dos sistemas.
 
-É importante que quem tenha interesse em conhecer mais detalhes sobre o projeto foque em compreender as lógicas de programação utilizadas na implementação e não tente fazer a portabilidade, pois o projeto não foi configurado com esse objetivo.
+É importante que, quem tenha interesse em conhecer mais detalhes sobre o projeto, foque em compreender as lógicas de programação utilizadas na implementação, e não tente fazer a portabilidade, pois o projeto não foi configurado com esse objetivo.
 
 Obrigado e fique a vontade para entrar em contato.
 
