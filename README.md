@@ -22,4 +22,16 @@ Obrigado e fique a vontade para entrar em contato.
 
 marceloviana1991@gmail.com
 
+## Especificações do Projeto
+
+Além dos módulos de microsserviço de pagamentos e de pedidos, o projeto contém mais dois módulos refentes ao service discorery e ao gateway.
+
+Esses dois módulos são compostos por configurações e bibliotecas externas que ficam responsáveis por registrar os microsserviços, realizar balanceamento carga e criar um portão único de entrada para a aplicação.
+
+Já os microsserviços de pagamentos e pedidos, além de possuírem configurações e bibliotecas externas para atuar como clientes do service discorey e do gateway, possuem implementações lógicas de API Rest.
+
+A implementação lógica do relacionamento entre esses dois serviços se dá por meio de de um atributo do pedido que define o status do pedido como PAGO. 
+
+
+
 
