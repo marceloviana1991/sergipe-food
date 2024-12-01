@@ -8,7 +8,7 @@ Com o objetivo de investigar um pouco mais esse universo, criei esse repositóri
 
 ## Levantamento de Requisitos
 
-O projeto consiste em sistema web API Rest de uma especie de lanchonete que, após convertido para arquitetura de microsserviços, cria a possibilidade do funcionamento do microsserviço de pedidos independente do microsserviço de pagamentos. A vantagem dessa implementação é que, por mais que os serviços estabeleçam comunicação, caso um microsserviço pare de funcionar o outro continua funcionando. 
+O projeto consiste em um sistema implementado em arquitetura de microsserviços que utiliza sistemas de service discovery, API gateway e mensageria. O lógica da implementação consiste basicamente em uma comunicação assíncrona onde a criação de um pedido implica na criação de um pagamento e a alteração do status de um pagamento implica na alteração do status de um pedido.
 
 ![diagama](diagrama.png)
 
