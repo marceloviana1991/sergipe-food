@@ -6,11 +6,11 @@ Ultimamente tenho visto que a arquitetura de microsserviços tem sido protagonis
 
 Com o objetivo de investigar um pouco mais esse universo, criei esse repositório remoto e estou disponibilizando o código fonte do projeto para compartilhar minha experiência e principalmente abrir as portas para dicas e sugestões.
 
+
 ## Levantamento de Requisitos
 
 O projeto consiste em um sistema implementado em arquitetura de microsserviços que utiliza sistemas de service discovery, API gateway e mensageria. O lógica da implementação consiste basicamente em uma comunicação assíncrona onde a criação de um pedido implica na criação de um pagamento e a alteração do status de um pagamento implica na alteração do status de um pedido.
 
-![diagama](diagrama.png)
 
 ## Proposta do Repositório
 
